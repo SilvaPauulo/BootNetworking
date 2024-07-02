@@ -16,7 +16,7 @@ print(f'Cliquei no campo email ...')
 print(f'-' * 50)
 
 #Vai inserir o email
-driver.find_element(By.CSS_SELECTOR,'#username').send_keys('paulo.estudante9904@gmail.com')
+driver.find_element(By.CSS_SELECTOR,'#username').send_keys('insira_seu_email')
 print(f'E-mail inserido no campo email ...')
 print(f'-' * 50)
 
@@ -26,7 +26,7 @@ print(f'Cliquei no campo de senha ...')
 print(f'-' * 50)
 
 #Vai inserir a senha:
-driver.find_element(By.XPATH,'//*[@id="password"]').send_keys('88280088')
+driver.find_element(By.XPATH,'//*[@id="password"]').send_keys('insira_sua_senha')
 print(f'Senha inserida ...')
 print(f'-' * 50)
 
